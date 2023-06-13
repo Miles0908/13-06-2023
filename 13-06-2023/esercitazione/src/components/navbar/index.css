@@ -1,0 +1,11 @@
+.Navbar {
+  padding: 8px 32px;
+  box-shadow: 0 0 16px green;
+  background-color: rgb(129, 223, 162);
+}
+
+.Navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

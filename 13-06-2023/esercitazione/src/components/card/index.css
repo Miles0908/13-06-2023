@@ -1,0 +1,52 @@
+.Card {
+  width:100%;
+  border: 2px solid rebeccapurple;
+  border-radius: 16px;
+  box-shadow: 0 0 20px black;
+  background-color: rgba(115, 68, 138, 0.49);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ margin-bottom: 20px;
+  
+  
+}
+.Card__text {
+  
+  border: 1px solid;
+  border-top-width: 12px;
+  border-bottom-width: 12px;
+   padding: 12px;
+  border-radius: 40px;
+  
+  color: rgb(16, 52, 134);
+}
+.Card__id {
+  font-size: 20px;
+  border: 1px solid rgb(13, 177, 153);
+  border-top-width: 12px;
+  border-bottom-width: 12px;
+   padding: 12px;
+  border-radius: 40px;
+}
+
+.Card__info--like {
+  font-size: 20px;
+  padding: 20px;
+}
+
+
+input[type="checkbox"] {
+  display: flex;
+  justify-content: center;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+input[type="checkbox"]:checked {
+  background-color: green;
+}
